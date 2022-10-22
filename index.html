@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+      };
+    </script>
+    <title>Document</title>
+  </head>
+  <body class="bg-[url('./NLOxdur8.png')] bg-cover bg-center bg-no-repeat">
+    <section class="enable-animation mix-blend-difference">
+      <div class="marquee">
+        <ul class="marquee__content">
+          <img src="./logo.png" alt="" />
+          <img src="./logo.png" alt="" />
+        </ul>
+
+        <ul aria-hidden="true" class="marquee__content">
+          <img src="./logo.png" alt="" />
+          <img src="./logo.png" alt="" />
+        </ul>
+      </div>
+    </section>
+
+    <main class="flex h-[100vh] flex-col text-white mix-blend-exclusion">
+      <h1
+        class="animate__animated animate__fadeInDown text-center text-2xl md:text-6xl"
+      >
+        ANDRES ACEVEDO
+      </h1>
+      <p class="animate__animated animate__fadeIn mt-6 text-center">
+        Frontend Developer
+      </p>
+      <p class="animate__animated animate__fadeIn text-center">
+        based in Damascus, Maryland
+      </p>
+      <section class="flex flex-col items-center justify-center outline">
+        <div
+          class="animate__animated animate__backInLeft py-10 text-start outline"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi facilis
+          magnam nobis fugiat amet corporis quibusdam adipisci corrupti! Totam
+          a, autem rem labore animi vitae ab sapiente dicta eaque quas.
+        </div>
+        <div class="animate__animated animate__backInRight">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim velit
+          voluptatem, eaque accusantium adipisci mollitia eos delectus facilis
+          perferendis?
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
